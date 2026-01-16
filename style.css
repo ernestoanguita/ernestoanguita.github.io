@@ -32,10 +32,28 @@ main {
     padding: 50px;
 }
 
-.profile-pic {
-    width: 200px;
-    max-width: 100%;
-    border-radius: 50%;
-    display: block;
-    margin: 20px auto;
+/* Main layout */
+.home-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 30px;
 }
+
+/* Right column (photo) */
+.photo-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/* Photo styling: NO OVAL */
+.profile-pic {
+    width: 260px;
+    height: auto;
+    border-radius: 0;          /* rectangular */
+    box-shadow: none;          /* academic look */
+}
+
