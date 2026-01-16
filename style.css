@@ -47,13 +47,15 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+    padding-top: 80px;
 }
 
 /* Photo styling: NO OVAL */
 .profile-pic {
-    width: 260px;
+    width: 320px;
     height: auto;
     border-radius: 0;          /* rectangular */
     box-shadow: none;          /* academic look */
 }
+
 
