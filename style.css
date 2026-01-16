@@ -1,12 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Cambria", serif;
+    font-size: 18px;
+    line-height: 1.6;
+    font-optical-sizing: auto;
     margin: 0;
 }
 
 header {
-    background-color: #333;
-    padding: 15px;
+    background-color: #580000;
+    padding: 12px 200px;
 }
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* aligns items to the right */
+}
+
 
 nav a {
     color: white;
@@ -20,5 +29,13 @@ nav a:hover {
 }
 
 main {
-    padding: 40px;
+    padding: 50px;
+}
+
+.profile-pic {
+    width: 200px;
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
 }
